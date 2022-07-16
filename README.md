@@ -22,4 +22,5 @@ double data_f; // Filtered data that we want
 /* < ... something here ... > */
 
 MAF.Update(&data_m, &data_f); // Update MAF
+// data_f = MAF.Update(data_m); // Or this
 ```
