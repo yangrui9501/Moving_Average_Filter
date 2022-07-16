@@ -5,7 +5,7 @@
 * This library performs the moving average filtering with a user-defined window size p.
 * *Algorithm*
     $$ 
-    y_f[k] = \frac{1}{p}\left(y[k] + y[k-1] + \cdots + y[k-p-1]\right)
+    y_f[k] = \frac{1}{p}\left(y[k] + y[k-1] + \cdots + y[k-p+1]\right)
     $$
     where $y[k]$ is the measured data in time index $k$ and $y_f[k]$ is the corresponding filtered data.
 ## How to use?
